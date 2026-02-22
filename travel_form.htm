@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Travelling Form</title>
+</head>
+<body>
+   <section>
+     <video  autoplay loop muted  id="my_video" > 
+         <source src="pyramids.mp4" type="video/mp4">
+    </video>
+   </section>
+    <form>
+        <div>
+         <h1>Repare your next trip with me</h1>
+         <p>Please fill in the form</p>
+         <label for="Fullname" >
+             Full name :
+         </label>
+         <input id="Fullname" type="text" placeholder="Enter your full name" name="Fullname">
+         <label for="age">
+            Age:
+         </label>
+         <input type="number" id="age" placeholder="Your age">
+         <label for="email" >
+             Email :
+         </label>
+         <input id="email" type="email" placeholder="Enter your email">
+         <label for="phone" >
+             Phone number :
+         </label>
+         <input id="phine" type="number" placeholder="Enter your phone number">
+         <label>
+             Gender :
+         </label>
+         <div>
+             <input id="male" type="radio" name="Gender" value="male" class="inline-label">
+             <label class="inline-label" for="male">male</label>
+         </div>
+         <div>
+             <input id="female" type="radio" name="Gender" value="female" class="inline-label">
+             <label class="inline-label" for="female">female</label>
+         </div>
+         <label for="arrive" >
+             Arrivig date :
+         </label>
+         <input id="arrive" type="date" >
+         <label for="leaving" >
+             Departure date :
+         </label>
+         <input id="leaving" type="date" >
+         <label for="img" >
+           upload your profile picture :
+         </label>
+         <input id="img" type="file" >
+         <label for="dest" >
+            Your destination :
+         </label>
+         <select name="Cities" id="dest">
+            <option value="Cairo">Cairo</option>
+            <option value="Assowan">Assowan</option>
+            <option value="Loxour">Loxour</option>
+            <option value="Giza">Giza</option>
+            <option value="Alexandria">Alexandria</option>
+         </select>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <a href="home.htm">
+            Back
+        </a>
+    </form>
+</body>
+</html>
